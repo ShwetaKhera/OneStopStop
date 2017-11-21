@@ -1,0 +1,865 @@
+body
+{
+
+  height: 100%;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  background-color:black ;
+  overflow-x: hidden;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 50px;
+	color: steelblue;
+}
+
+form
+{
+	margin: 20px auto;
+	width: 220px;
+	color: steelblue
+}
+
+input
+{
+	padding: 10px;
+	font-size: inherit;
+}
+
+input[type="text"]
+{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+
+
+input[type="Password"]
+{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+
+input[type="email"]
+{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+
+input[type="radio"]
+{
+	margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child
+{
+	margin-left: 0;
+}
+
+input[type="submit"]
+{
+	width: 344px;
+	height: 45px;
+	border: none;
+	background: steelblue;
+	color: white;
+}
+
+input[type="submit"]:focus
+{
+	width: 344px;
+	height: 45px;
+	border: solid;
+	background: white;
+	color: steelblue;
+}
+
+input:focus
+{
+	background: white;
+}
+
+input[type="radio"]:checked + lable
+{
+	font-weight: bold;
+	font-size 18px;
+}
+
+div
+{
+  display:block;
+}
+
+.head
+{
+  margin-top: 0%;
+  width: 100%;
+  height: 80px;
+  margin-left: 0%;
+  background: #C40233;
+  padding-top: 0px;
+}
+
+.name
+{
+  display: inline-block;
+  float: left;
+  font-size: 2.2vw;
+  color: #000000;
+   font-family: 'Cinzel Decorative';
+  padding-top: 10px;
+  padding-left:10px;
+  margin-top: 0px;
+  top:0px;
+}
+.name:hover
+{
+	text-decoration:none;
+	color:black;
+}
+
+.row
+{
+  display: inline-block;
+  float: right;
+  height: 9.2%;
+  width:60%;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.navig
+{
+  position: absolute;
+   right: -320px;
+   padding-top: 10px;
+  font-size:15px;
+
+}
+
+a
+{
+  color: #FFF;
+  text-decoration: none;
+}
+
+a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a:hover span {
+  padding-right: 25px;
+  color:white;
+}
+
+a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.col-sm-3 a
+{
+  text-decoration: none;
+}
+
+.well{
+
+  background:#C40233 ;
+  display: inline-block;
+  border: 0px;
+  max-height: 100%;
+  text-decoration: none;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:0px;
+}
+
+.buy{
+ background: #000000;
+  padding-bottom: 0px;
+  height: 50px;
+  padding-top: 0px;
+  font-size: 20px;
+  text-align:center;
+  font-family: 'Pangolin', cursive;
+}
+
+.container-middle{
+  width:100%;
+  height:100%;
+}
+
+.sidebar{
+  width:18%;
+  color: #4770d;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  overflow: scroll;
+  height: 1050px;
+  overflow-x: hidden;
+  background: #FFF;
+
+
+}
+.mid{
+  width:100%;
+  height: 700px;
+  display: inline-block;
+  float: right;
+}
+
+
+.detailpic1{
+  width:28%;
+  font-size: 35px;
+  display:inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 150px;
+}
+
+.detailpic2{
+  width:40%;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 150px;
+}
+
+.detailpic3{
+  width:28%;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 150px;
+}
+
+.row{
+  float: left;
+}
+
+.col-md-3{
+  width:25%;
+  float: left;
+  max-height: 20px;
+}
+
+.caption{
+  background: lightgray;
+}
+
+.image-gallery{
+  width:98%;
+  height:300px;
+  margin-left: 10px;
+}
+
+.trending{
+  max-height: 50px;
+  width: 98%;
+  font-size: 50px;
+  color: #ffffff;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Pangolin', cursive;
+  margin-left: 525px;
+  display: block;
+}
+
+.footer{
+  width:100%;
+  position: absolute;
+  background: gray;
+  height: 100px;
+  top:2250px;
+  left:0px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fa{
+  padding-left: 50px;
+  margin-top:15px;
+}
+
+.form-horizontal{
+  margin-top: 30px;
+}
+
+.form-group{
+  padding-top: 60px;
+  vertical-align: middlle;
+}
+
+.address
+{
+  height: 100px;
+  width: 700px;
+}
+
+.footer_reg{
+  width:100%;
+  position: absolute;
+  background: gray;
+  height: 100px;
+  top:800px;
+  left:0px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.login{
+  width: 100%;
+}
+
+.forget{
+    color: blue;
+}
+
+.footer_log{
+  width:100%;
+  position: absolute;
+  background: gray;
+  height: 100px;
+  top:673px;
+  left:0px;
+  text-align: center;
+  padding-top: 20px
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position :relative;
+  top:40px;
+  margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.button {
+  float:left;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:45px;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.tab {
+    float: left;
+    border: 1px solid #000;
+    width: 20%;
+    height: 470px;
+    position:fixed;
+    top:165px;
+    left:20px;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width:100%;
+    border-left: none;
+    height:550px;
+    padding-left:300px;
+    position:fixed;
+    overflow-y: scroll;
+}
+
+.FILTERS{
+display: block;
+    background-color: inherit;
+    color:black;
+    padding: 22px 16px;
+    width: 100%;
+    text-align: left;
+     font-size: 17px;
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    border-bottom: none;
+    border-right:none;
+   border-left:none;
+}
+
+.COLORS{
+   display: block;
+    background-color: inherit;
+    color:black;
+    padding: 105px 30px;
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: none;
+    border-right:none;
+   border-left:none;
+}
+
+.PRICE-RANGE{
+   display: block;
+   background-color: inherit;
+   color:white;
+   padding: 105px 30px;
+   width: 100%;
+   font-size: 17px;
+   border-style: solid;
+   border-color: black;
+   border-right:none;
+   border-left:none;
+}
+
+.slideshow-container-card {
+  max-width: 200px;
+  position :relative;
+  top:135px;
+  margin: auto;
+}
+.card {
+    position:relative;
+    left:320px;
+    top:135px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    transition: 0.3s;
+    width: 200px;
+}
+
+.card:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+ }
+
+.container {
+    padding: 2px 16px;
+    background:white;
+    width: 100%;
+}
+
+
+.container1 {
+    padding: 0px 0px;
+    display: inline-block;
+    border-radius: 50%;
+    float:left;
+
+}
+
+.button-color { 
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.button-color:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+#grad1 {
+    height: 12px;
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+
+.button-color-ticked{
+font-family: wingdings; 
+font-size: 200%;
+}
+
+.line{
+width: 272px;
+height: 42px;
+border-bottom: 1px solid white;
+position: absolute;
+left:0px;
+}
+
+.image-button {
+  display:block;
+  border: 0.5px solid black;
+  padding:3%;	
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2% ;
+  position:absolute;
+  white-space:nowrap;
+  max-width:80px;
+}
+
+.main-image-view{
+position:absolute;
+top:-280%;
+left:100%;
+ width:400px; height:500px;
+border:0.5px solid black;
+}
+button:focus {outline:0;}
+
+.size-box{
+    width: 40%;
+    height: 40%;
+    border: 1px solid black;
+    position:absolute;
+    top:-105%;
+}
+
+input[type=text], select, textarea {
+    width: 200%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	text-align:center;
+	margin-left:-100px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-left:-50px;
+	text-align:center;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 100px;
+	text-align:center;
+	
+}
+
+/*SIGNUP FORM*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+/*LOGIN FORM*/
+
+button:hover {
+    opacity: 0.8;
+}
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal-login {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-login-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
